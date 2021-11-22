@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*"],
+  "typeAcquisition": {
+    "enable": true,
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "target": "ES2018",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "build"
+  }
+}
